@@ -185,4 +185,7 @@ atom_colors = {
     'S': 'yellow'
 }
 
-print("Hello world")
+# benzene_file_path = os.path.join('data', 'xyz', 'benzene.xyz')
+# benzene_symbols, benzene_coords = open_xyz(benzene_file_path)
+# benzene_bonds = build_bond_list(benzene_coords)
+# print("Hello world")
