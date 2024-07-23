@@ -1,4 +1,11 @@
-def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
+
+
+from typing import Sequence 
+
+
+def build_bond_list(coordinates: Sequence[Sequence[float]],
+                     max_bond=1.5, 
+                     min_bond=0) -> dict[tuple[int,int],float]:
     
     # Find the bonds in a molecule (set of coordinates) based on distance criteria.
     bonds = {}
