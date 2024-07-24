@@ -1,0 +1,6 @@
+﻿mf\_2024.canvas
+===============
+
+.. currentmodule:: mf_2024
+
+.. autofunction:: canvas
